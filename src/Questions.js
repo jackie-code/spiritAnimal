@@ -6,17 +6,28 @@ class Questions extends Component {
 
     constructor(props) {
         super(props);
+        this.state = {choice:0};
     }
     sayHi() {console.log("hi")};
-    nextQuestion = () => {  
+    nextQuestion = (myPath) => {  
+        console.log(this.props.history.push());
+        this.props.history.push(`${myPath < 20 ? '/question/' + (Number(myPath) + 1): "/result"}`)
+    }
+
+    updateState = (value) => {
+        console.log(value);
+        this.setState({choice: value})
     }
     
     render() {
         let myPath = this.props.match.params.number;
         const question = listOfQ[myPath-1];
-
-        const showQuestions = listOfQ[0].answer.map(item => {
-            return(<li>hello</li>);
+      //  let getPoints = {item[Object.keys(item)[1]]}.checked;
+        console.log(this.state.choice);
+        const showQuestions = question.answer.map(item => {
+            return(
+            <li><input type="radio" name="questions" value={item[Object.keys(item)[1]]} onChange={ (e) => this.updateState(e.target.value) }/>{item[Object.keys(item)[0]]} </li>
+            );
         }) 
 
         console.log(showQuestions);
@@ -32,7 +43,7 @@ class Questions extends Component {
                     <li><input type="checkbox" name="questions" />c</li>
                     <li><input type="checkbox" name="questions" />d</li> */}
                 </ol>
-                <Link to={`${myPath < 20 ? '/question/' + (Number(myPath) + 1) : "/result"}`}>Next Question</Link>
+                {/* <Link to={`${myPath < 20 ? '/question/' + (Number(myPath) + 1) : "/result"}`}>Next Question</Link> */}
             </div>
         )
     }

@@ -10,7 +10,11 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      username: ""
+      username: "",
+      a: 0,
+      b: 0,
+      c: 0,
+      d: 0
     }
   }
 
@@ -28,7 +32,7 @@ class App extends Component {
       {/* home only needs / bc nothing shows on home page */}
   <Route exact path = '/' render={(props) => <Home {...props} updateUserName={this.updateUserName} />}/>
       <Route exact path = '/question/:number' render={(props) => <Question {...props}  />}/>
-      <Route exact path = '/result' render={(props) => <Result {...props} /> }/> 
+      <Route exact path = '/result' render={(props) => <Result {...props} results={this.state}/> }/> 
       </Switch>
     </div>
   );

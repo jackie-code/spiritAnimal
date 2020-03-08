@@ -2,10 +2,10 @@ export const listOfQ = [
     {
         question: "question 1",
         answer: [
-            {a: "animal", points: 1},
-            {b: "animal", points: 2},
-            {c: "animal", points: 3},
-            {d: "animal", points: 4}
+            {a: "afjdsifsf", points: 1},
+            {b: "afdsff", points: 2},
+            {c: "yyyyyyyl", points: 3},
+            {d: "animfsnfkjsal", points: 4}
         ]
     },
     {
