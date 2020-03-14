@@ -14,11 +14,24 @@ class App extends Component {
       a: 0,
       b: 0,
       c: 0,
-      d: 0
+      d: 0,
+      e: 0,
+      f: 0,
+      g: 0,
+      h: 0,
+      i: 0,
+      j: 0
     }
   }
 
   updateUserName = (event) => {
+    this.setState({
+      username: event.currentTarget.value
+    })
+    console.log(event.currentTarget.value);
+  }
+
+  updateAnimal = (event) => {
     this.setState({
       username: event.currentTarget.value
     })
@@ -30,7 +43,7 @@ class App extends Component {
     <div className="App">
       <Switch>
       {/* home only needs / bc nothing shows on home page */}
-  <Route exact path = '/' render={(props) => <Home {...props} updateUserName={this.updateUserName} />}/>
+      <Route exact path = '/' render={(props) => <Home {...props} updateUserName={this.updateUserName} />}/>
       <Route exact path = '/question/:number' render={(props) => <Question {...props}  />}/>
       <Route exact path = '/result' render={(props) => <Result {...props} results={this.state}/> }/> 
       </Switch>
