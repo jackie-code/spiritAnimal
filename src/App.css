@@ -1,17 +1,66 @@
+@media only screen and (max-device-width : 500px) {
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
+} */
+
+body {
+  background-color: red;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div #home {
+  background-color: black;
+
 }
+
+
+#home {
+  background-image: url('./images/spiritual.jpg');
+  height: 700px;
+  background-position:50% 50%; 
+  background-size:cover;
+  color: white;
+  text-decoration: none;
+}
+
+#continue {
+  
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  padding: 3px;
+  border: 1px solid white;
+}
+
+#continue:hover {
+  transform: scale(1.5);
+}
+
+#box {
+  /* align-content: start; */
+  Float:left;
+}
+
+ol#list {
+  list-style: none;
+}
+
+#qButton {
+
+}
+
+div #questionChoices {
+  background-color: rgb(214, 210, 191);
+
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +85,101 @@
     transform: rotate(360deg);
   }
 }
+
+}
+
+
+@media only screen and (min-device-width : 501px) and (max-width : 767px) {
+
+  .App {
+    text-align: center;
+  }
+  
+  /* .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  } */
+  
+  
+  body {
+    background-color: red;
+
+  }
+
+  div #home {
+    background-color: black;
+  
+  }
+  
+  
+  #home {
+    background-image: url('./images/spiritual.jpg');
+    height: 700px;
+    background-position:50% 50%; 
+    background-size:cover;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #continue {
+    
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    padding: 3px;
+    border: 1px solid white;
+  }
+  
+  #continue:hover {
+    transform: scale(1.5);
+  }
+  
+  #box {
+    /* align-content: start; */
+    Float:left;
+  }
+  
+  ol#list {
+    list-style: none;
+  }
+  
+  #qButton {
+  
+  }
+  
+  div #questionChoices {
+    background-color: rgb(214, 210, 191);
+  
+  }
+  
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+}  
+
+
+
+/* @media only screen and (min-device-width : 768px) { */

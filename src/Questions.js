@@ -45,15 +45,18 @@ class Questions extends Component {
     //    console.log(myPath);
        console.log(this.props);
         return(
-            <div>
-                <h2>this is question{myPath}</h2>
-                <ol>{showQuestions}
+            <div id="questionChoices">
+                <div id="box">
+                <h2>Question{myPath}</h2>
+                <ol id="list">{showQuestions}
                     {/* <li><input type="checkbox" name="questions" />a</li>
                     <li><input type="checkbox" name="questions" />b</li>
                     <li><input type="checkbox" name="questions" />c</li>
                     <li><input type="checkbox" name="questions" />d</li> */}
                 </ol>
-                <button onClick={e => this.updateAppState(e, myPath)} id="next">Next Question</button>
+                
+                <button id="qButton" onClick={e => this.updateAppState(e, myPath)} id="next">Next Question</button>
+                </div>
             </div>
         )
     }

@@ -37,6 +37,8 @@ export default class Result extends Component {
     render() {
         console.log(animals.a.picture);
 
+        let myAnimal = animals[this.getMaxAnimal(this.props.results)]
+
        
         console.log(this.props);
         console.log(this.getMaxAnimal(this.props.results))
@@ -49,9 +51,11 @@ export default class Result extends Component {
         return(
             <div>
                      <h2>This is who you are</h2>
-        <span>some "spirit animal" goes here </span>
-        <img src='../public/images/baboon_bird.jpg' width='50px'></img>
+        <p>some "spirit animal" goes here </p>
+        <img src={require(`${myAnimal.picture}`)} width='500px'></img>
+                <div>
                 <Link to="/">Retry</Link>
+                </div>
                 <button onClick={(e) => this.startOver(e)}>Clear</button>
             </div>
         )
