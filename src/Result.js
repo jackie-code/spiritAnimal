@@ -49,10 +49,10 @@ export default class Result extends Component {
 
     
         return(
-            <div>
+            <div id="contain">
                      <h2>This is who you are</h2>
         <p>some "spirit animal" goes here </p>
-        <img src={require(`${myAnimal.picture}`)} width='500px'></img>
+        <img id="animalImage" src={require(`${myAnimal.picture}`)} ></img>
                 <div>
                 <Link to="/">Retry</Link>
                 </div>
@@ -62,3 +62,8 @@ export default class Result extends Component {
     }
    
 }
+
+
+
+
+
