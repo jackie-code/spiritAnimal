@@ -54,9 +54,8 @@ export default class Result extends Component {
         <p> {myAnimal.description}</p>
         <img id="animalImage" src={require(`${myAnimal.picture}`)} ></img>
                 <div>
-                <Link to="/">Retry</Link>
+                <button onClick={(e) => this.startOver(e)}>Retake</button>
                 </div>
-                <button onClick={(e) => this.startOver(e)}>Clear</button>
             </div>
         )
     }
