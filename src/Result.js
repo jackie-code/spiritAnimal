@@ -50,8 +50,8 @@ export default class Result extends Component {
     
         return(
             <div id="contain">
-                     <h2>This is who you are</h2>
-        <p>some "spirit animal" goes here </p>
+                     <h2>{myAnimal.name}</h2>
+        <p> {myAnimal.description}</p>
         <img id="animalImage" src={require(`${myAnimal.picture}`)} ></img>
                 <div>
                 <Link to="/">Retry</Link>
