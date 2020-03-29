@@ -63,7 +63,6 @@ div #questionChoices {
   background-image: url('./images/texture.jpg');
   margin-left: auto;
   margin-right: auto;
-  
   width: 70%;
   padding-bottom: 70%;
   font-weight: bold;
@@ -100,6 +99,7 @@ width: 70%;
 
 #contain {
   background-image: url('./images/colorfulTexture.jpg.jpg');
+  margin-top: 40px;
   border: 5px solid white;
   margin-left: auto;
   margin-right: auto;
@@ -108,6 +108,23 @@ width: 70%;
 
 #animalImage {
   border: 5px solid white;
+}
+
+#describe {
+  color: white;
+  font-weight: bold;
+  width: 70%;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#retake {
+  background-color: black;
+ color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .App-header {

@@ -49,12 +49,17 @@ export default class Result extends Component {
 
     
         return(
+            <div>
             <div id="contain">
                      <h2>{myAnimal.name}</h2>
-        <p> {myAnimal.description}</p>
         <img id="animalImage" src={require(`${myAnimal.picture}`)} ></img>
                 <div>
-                <button onClick={(e) => this.startOver(e)}>Retake</button>
+                <button id="retake" onClick={(e) => this.startOver(e)}>Retake</button>
+                </div>
+                
+            </div>
+            <div id="describe">
+                <p> {myAnimal.description}</p>
                 </div>
             </div>
         )
