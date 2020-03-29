@@ -150,20 +150,13 @@ width: 70%;
   
   
   body {
-    background-color: green;
-
+    background-color: red;
   }
-
-
-  #animalImage {
-    width: 500px;
-    object-fit: cover;
-   }
-
-
-  div #home {
-    background-color: black;
   
+  #animalImage {
+    border: 10px solid white;
+   width: 200px;
+   object-fit: cover;
   }
   
   
@@ -190,6 +183,7 @@ width: 70%;
   }
   
   /* #box {
+    
     Float:left;
   } */
   
@@ -231,23 +225,120 @@ width: 70%;
     }
   }
   
-
-}  
-
-
-
-@media only screen and (min-device-width : 1000px){
-
-
-  body {
-    background-color: turquoises;
-
   }
   
-
-  #animalImage {
-    width: 700px;
+  
+  @media screen and (min-width : 501px) {
+  
+    .App {
+      text-align: center;
+    }
     
-   }
-
-}
+    /* .App-logo {
+      height: 40vmin;
+      pointer-events: none;
+    } */
+    
+    
+    body {
+      background-color: green;
+  
+    }
+  
+  
+    #animalImage {
+      width: 500px;
+      object-fit: cover;
+     }
+  
+  
+    div #home {
+      background-color: black;
+    
+    }
+    
+    
+    #home {
+      background-image: url('./images/spiritual.jpg');
+      height: 700px;
+      background-position:50% 50%; 
+      background-size:cover;
+      color: white;
+      text-decoration: none;
+    }
+    
+    #continue {
+      
+      text-decoration: none;
+      background-color: purple;
+      color: white;
+      padding: 3px;
+      border: 1px solid white;
+    }
+    
+    #continue:hover {
+      transform: scale(1.5);
+    }
+    
+    /* #box {
+      Float:left;
+    } */
+    
+    ol#list {
+      list-style: none;
+    }
+    
+    #qButton {
+    
+    }
+    
+    div #questionChoices {
+      background-color: rgb(214, 210, 191);
+    
+    }
+    
+    
+    .App-header {
+      background-color: #282c34;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+    
+    .App-link {
+      color: #61dafb;
+    }
+    
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    
+  
+  }  
+  
+  
+  
+  @media only screen and (min-device-width : 1000px){
+  
+  
+    body {
+      background-color: turquoise;
+  
+    }
+    
+  
+    #animalImage {
+      width: 700px;
+      
+     }
+  
+  }
