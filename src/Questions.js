@@ -47,7 +47,7 @@ class Questions extends Component {
         return(
             <div id="questionChoices">
                 <div id="box">
-                <h2>Question{myPath}</h2>
+                <h2 id="qh2">Question {myPath}</h2>
                 <ol id="list">{showQuestions}
                     {/* <li><input type="checkbox" name="questions" />a</li>
                     <li><input type="checkbox" name="questions" />b</li>
@@ -56,7 +56,9 @@ class Questions extends Component {
                 </ol>
                 
                 <button id="qButton" onClick={e => this.updateAppState(e, myPath)} id="next">Next Question</button>
+                
                 </div>
+                
             </div>
         )
     }
