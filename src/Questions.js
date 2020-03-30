@@ -33,38 +33,40 @@ class Questions extends Component {
     render() {
         let myPath = this.props.match.params.number;
         const question = listOfQ[myPath-1];
-      //  let getPoints = {item[Object.keys(item)[1]]}.checked;
+        const showQuestion = () => {
+            return question ?
+                <div id="box">
+                <h2>{question.question}</h2>
+                <ol  id="list">
+                {question.answer.map(item => {
+                    return (<li><input type="radio" name="questions" value={Object.keys(item)[0]} onChange={ (e) => this.updateChoiceSelected(e.target.value) }/>{item[Object.keys(item)[0]]} </li>
+                    )
+                })}
+                </ol>
+                </div>
+            : null
+        }
         console.log(this.props);
-        const showQuestions = question.answer.map(item => {
-            return(
-            <li><input type="radio" name="questions" value={Object.keys(item)[0]} onChange={ (e) => this.updateChoiceSelected(e.target.value) }/>{item[Object.keys(item)[0]]} </li>
-            );
-        }) 
-
-        
+ 
     //     console.log(showQuestions);
     //     console.log(question)
     //    console.log(myPath);
        console.log(this.props);
         return(
             <div id="questionChoices">
-                <div id="box">
-                <h2 id="qh2">Question {myPath}</h2>
-                <ol id="list">{showQuestions}
+          
+                {showQuestion()}
                     {/* <li><input type="checkbox" name="questions" />a</li>
                     <li><input type="checkbox" name="questions" />b</li>
                     <li><input type="checkbox" name="questions" />c</li>
                     <li><input type="checkbox" name="questions" />d</li> */}
-                </ol>
-                
                 <button id="qButton" onClick={e => this.updateAppState(e, myPath)} id="next">Next Question</button>
-                
-                </div>
                 
             </div>
         )
     }
 }
+
 
 export default Questions;
 
