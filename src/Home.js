@@ -10,8 +10,9 @@ export default class Home extends Component {
             <div id="home">
                      <h2>User Name</h2>
                 <input type="text" placeholder="type your name" value={this.props.username} onChange={(event) => this.props.updateUserName(event)} />
-                <br></br><br></br>
+                <div id="homeB">
                 <Link id="continue" to="/question/1">Continue</Link>
+                </div>
             </div>
         )
     }

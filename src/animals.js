@@ -1,61 +1,61 @@
 export const animals = {
     a: {
-        name:"baboon-bird",
+        name:"Baboon-bird",
         picture: './images/baboon_bird.jpg',
         description: 'Besides being annoying, you know how to find ways to get things done. Finding loopholes and shortcuts is your specialty.',
 
     },
     b: {
-        name:"cow-monkey",
+        name:"Cow-monkey",
         picture: './images/cow_monkey.jpg',
         description: 'You got short-man syndrome. You make up for it in being wealthy and being a social butterfly.',
 
     },
     c: {
-        name:"dalmation-catipillar",
+        name:"Dalmation-catipillar",
         picture: './images/dalmation_catipillar.jpg',
         description: 'The grass is always greener. Gotta keep working towards getting to the next level.',
 
     },
     d: {
-        name:"gazelle-cheetah",
+        name:"Gazelle-cheetah",
         picture: './images/gazelle_cheetah.jpg',
-        description: 'You may think you are elegant, but really you are just a show off. You know how to flaunt your beauty to your benefit though.',
+        description: "Elegant and sophisticated, you know how to flaunt your charms to your benefit... Show off.",
     },
     e: {
-        name:"gorilla-warrior",
+        name:"Gorilla-warrior",
         picture: './images/gorilla_warrior.jpg',
-        description: 'Someone is in your way? Make them move. Get from point a to point b no matter what.',
+        description: 'Someone in your way? Make them move. Get from A to B and take no matter what.',
 
     },
     f: {
-        name:"lion-bee",
+        name:"Lion-bee",
         picture: './images/lion_bee.jpg',
-        description: 'You make scenes and cause a lot of drama. You whine until you get what you want.',
+        description: 'You make scenes and cause a lot of drama. You whine but get nothing done.',
 
     },
     g: {
-        name:"rhino-wings",
+        name:"Rhino-wings",
         picture: './images/rhino_wings.jpg',
-        description: 'You may look intimidating, but you have a gentle nature and a high level of sophistication.',
+        description: 'Intelligent and resourceful. Your gentle nature attracts success.',
 
     },
     i: {
-        name:"seal-horse",
+        name:"Seal-horse",
         picture: './images/seal_horse.jpg',
-        description: "You live for the moment. Happy in your head and you don't give a flip what anyone thinks.",
+        description: "Only looking into the future as far as your next meal and living for the moment, you don't give a flip what anyone thinks.",
 
     },
     j: {
-        name:"shark-dog",
+        name:"Shark-dog",
         picture: './images/shark_dog.jpg',
-        description: 'Loyal and ready to party.',
+        description: 'Loyal and in need of constant adventure.',
 
     },
     k: {
-        name:"shark-rhino",
+        name:"Rhino-shark",
         picture: './images/shark_rhino.jpg',
-        description: 'Constantly hungry, does the bare minimum of what is required. You gave up.',
+        description: 'Constantly hungry, does the bare minimum of what is required. You gave up and expect free handouts.',
 
     },
 

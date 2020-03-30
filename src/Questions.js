@@ -40,6 +40,8 @@ class Questions extends Component {
             <li><input type="radio" name="questions" value={Object.keys(item)[0]} onChange={ (e) => this.updateChoiceSelected(e.target.value) }/>{item[Object.keys(item)[0]]} </li>
             );
         }) 
+
+        
     //     console.log(showQuestions);
     //     console.log(question)
     //    console.log(myPath);

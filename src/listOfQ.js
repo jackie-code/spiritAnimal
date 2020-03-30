@@ -1,11 +1,146 @@
 export const listOfQ = [
     {
-        question: "question 1",
+        question: "Akward silence.",
         answer: [
-            {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+            {a: "silence"},
+            {b: "jokes"},
+            {c: "network"},
+            {d: "charm"},
+            {e: "insult"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Something you want.",
+        answer: [
+            {a: "oportunistic"},
+            {b: "generous"},
+            {c: "ambitious"},
+            {d: "manipulative"},
+            {e: "assault"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Respond to something you don't like",
+        answer: [
+            {a: "agitated"},
+            {b: "patient"},
+            {c: "tolerant"},
+            {d: "no tolerance"},
+            {e: "intimidation"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Reaction to disappointment",
+        answer: [
+            {a: "proactive"},
+            {b: "doormat"},
+            {c: "envious"},
+            {d: "snobby"},
+            {e: "violence"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Someone has more resources than you.",
+        answer: [
+            {a: "solutions"},
+            {b: "donate"},
+            {c: "copy"},
+            {d: "seduce"},
+            {e: "overruling"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Someone just dissed you",
+        answer: [
+            {a: "fierce"},
+            {b: "jealous"},
+            {c: "adaptable"},
+            {d: "egocentric"},
+            {e: "pushy"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Get back",
+        answer: [
+            {a: "demanding"},
+            {b: "flashy"},
+            {c: "modest"},
+            {d: "attention-seeker"},
+            {e: "destructive"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "General tempermant",
+        answer: [
+             {a: "aggressive"},
+            {b: "immature"},
+            {c: "professional"},
+            {d: "exploitative"},
+            {e: "impulsive"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Work style",
+        answer: [
+             {a: "serious"},
+            {b: "social"},
+            {c: "efficient"},
+            {d: "display"},
+            {e: "agro"},
+            {f: "animal"},
+            {g: "animal"},
+            {h: "animal"},
+            {i: "animal"},
+            {j: "animal"}
+        ]
+    },
+    {
+        question: "Appetite",
+        answer: [
+             {a: "small appetite"},
+            {b: "small stomach"},
+            {c: "quick bite"},
+            {d: "picky"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -15,12 +150,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 2",
+        question: "Barista spills your coffee",
         answer: [
-            {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "vengeful"},
+            {b: "selfish"},
+            {c: "buy another"},
+            {d: "entitled to free drink"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -30,12 +165,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 3",
+        question: "Being taunted",
         answer: [
-            {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "explosive"},
+            {b: "competitive"},
+            {c: "submissive"},
+            {d: "arrogance"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -45,12 +180,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 4",
+        question: "You heard embarrassing news about someone you don't like",
         answer: [
-            {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "mean"},
+            {b: "boisterous"},
+            {c: "obedient"},
+            {d: "gossip"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -60,12 +195,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 5",
+        question: "Response to criticism",
         answer: [
-            {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "sly"},
+            {b: "how dare you"},
+            {c: "endeavor"},
+            {d: "graceful"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -75,12 +210,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 6",
+        question: "How you feel about your resources",
         answer: [
-            {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "calculating"},
+            {b: "reckless"},
+            {c: "follower"},
+            {d: "taker"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -90,12 +225,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 7",
+        question: "What trait do you currently most feel",
         answer: [
-            {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "cruel"},
+            {b: "superficial"},
+            {c: "wannabe"},
+            {d: "the best"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -105,12 +240,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 8",
+        question: "Body type",
         answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "weak"},
+            {b: "buff"},
+            {c: "beer belly"},
+            {d: "lean"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -120,12 +255,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 9",
+        question: "Behavior",
         answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "loud"},
+            {b: "humurous"},
+            {c: "appropriate"},
+            {d: "bitchy"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -135,12 +270,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 10",
+        question: "Asking for something",
         answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "bossy"},
+            {b: "domineering"},
+            {c: "careful"},
+            {d: "already expect it"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},
@@ -150,147 +285,12 @@ export const listOfQ = [
         ]
     },
     {
-        question: "question 11",
+        question: "Being served a gross meal",
         answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 12",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 13",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 14",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 15",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 16",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 17",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 18",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 19",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
-            {e: "animal"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
-        ]
-    },
-    {
-        question: "question 20",
-        answer: [
-             {a: "animal"},
-            {b: "animal"},
-            {c: "animal"},
-            {d: "animal"},
+             {a: "push the food around with your fork"},
+            {b: "needy"},
+            {c: "accepting"},
+            {d: "finicky"},
             {e: "animal"},
             {f: "animal"},
             {g: "animal"},

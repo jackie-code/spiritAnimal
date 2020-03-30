@@ -13,6 +13,8 @@
 
 body {
   background-color: black;
+  font-family: 'Indie Flower', cursive;
+font-family: 'Permanent Marker', cursive;
 }
 
 #animalImage {
@@ -30,14 +32,24 @@ body {
   text-decoration: none;
 }
 
+#homeB {
+  margin-top: 50%;
+  
+}
+
 #continue {
+ 
   border-radius: 30px;
   text-decoration: none;
-  background-color: purple;
-  opacity: .5;
-  color: white;
-  padding: 3px;
-  border: 1px solid white;
+  background-color: rgb(241, 168, 71);
+  
+  opacity: .65;
+  color: black;
+  font-weight: bold;
+ 
+  padding: 25px;
+  border: 5px solid white;
+  font-size: 2em;
 }
 
 #continue:hover {
