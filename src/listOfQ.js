@@ -7,11 +7,11 @@ export const listOfQ = [
             {c: "network"},
             {d: "charm"},
             {e: "insult"},
-            {f: "look at your nails"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {f: "bite nails"},
+            {g: "look at phone"},
+            {h: "greet"},
+            {i: "slow clap"},
+            {j: "wait"}
         ]
     },
     {
@@ -23,10 +23,10 @@ export const listOfQ = [
             {d: "manipulative"},
             {e: "assault"},
             {f: "whine"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "explanations"},
+            {h: "content"},
+            {i: "beg"},
+            {j: "wait"}
         ]
     },
     {
@@ -38,10 +38,10 @@ export const listOfQ = [
             {d: "no tolerance"},
             {e: "intimidation"},
             {f: "complain"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "disgust"},
+            {h: "hide"},
+            {i: "mumble"},
+            {j: "go MIA"}
         ]
     },
     {
@@ -53,10 +53,10 @@ export const listOfQ = [
             {d: "snobby"},
             {e: "violence"},
             {f: "lay in bed"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "blame"},
+            {h: "ice cream"},
+            {i: "cry"},
+            {j: "used-to-it"}
         ]
     },
     {
@@ -67,11 +67,11 @@ export const listOfQ = [
             {c: "copy"},
             {d: "seduce"},
             {e: "overruling"},
-            {f: "become bitter"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {f: "bitterness"},
+            {g: "spy"},
+            {h: "distract"},
+            {i: "make friends"},
+            {j: "life-isn't-fair"}
         ]
     },
     {
@@ -83,25 +83,25 @@ export const listOfQ = [
             {d: "egocentric"},
             {e: "pushy"},
             {f: "cry"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "breakdown"},
+            {h: "other cheek"},
+            {i: "'back off'"},
+            {j: "pizza"}
         ]
     },
     {
         question: "Get back",
         answer: [
-            {a: "demanding"},
-            {b: "flashy"},
+            {a: "demand"},
+            {b: "show off"},
             {c: "modest"},
-            {d: "attention-seeker"},
-            {e: "destructive"},
-            {f: "put dirty things in their food"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {d: "attention-seek"},
+            {e: "destroy"},
+            {f: "contaminate"},
+            {g: "poison food"},
+            {h: "'meanie head'"},
+            {i: "make mess"},
+            {j: "ignore"}
         ]
     },
     {
@@ -113,10 +113,10 @@ export const listOfQ = [
             {d: "exploitative"},
             {e: "impulsive"},
             {f: "lazy"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "schemer"},
+            {h: "daydreamer"},
+            {i: "humorous"},
+            {j: "mellow"}
         ]
     },
     {
@@ -128,10 +128,10 @@ export const listOfQ = [
             {d: "display"},
             {e: "agro"},
             {f: "overexaggerate"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "minimum"},
+            {h: "for money"},
+            {i: "obedient"},
+            {j: "lazy"}
         ]
     },
     {
@@ -141,12 +141,12 @@ export const listOfQ = [
             {b: "small stomach"},
             {c: "quick bite"},
             {d: "picky"},
-            {e: "eyes are bigger than your stomach"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {e: "big eyes"},
+            {f: "allergies"},
+            {g: "organic"},
+            {h: "processed"},
+            {i: "always hungry"},
+            {j: "bottomless pit"}
         ]
     },
     {
@@ -155,13 +155,13 @@ export const listOfQ = [
              {a: "vengeful"},
             {b: "selfish"},
             {c: "buy another"},
-            {d: "entitled to free drink"},
-            {e: "let everyone know of your displeasure by loudly anouncing it"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {d: "free"},
+            {e: "anounce it"},
+            {f: "throw stuff"},
+            {g: "get manager"},
+            {h: "blame self"},
+            {i: "help clean"},
+            {j: "wait"}
         ]
     },
     {
@@ -171,12 +171,12 @@ export const listOfQ = [
             {b: "competitive"},
             {c: "submissive"},
             {d: "arrogance"},
-            {e: "break their phone"},
-            {f: "animal"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {e: "break phone"},
+            {f: "comebacks"},
+            {g: "middle finger"},
+            {h: "walk away"},
+            {i: "laugh"},
+            {j: "what?"}
         ]
     },
     {
@@ -184,14 +184,14 @@ export const listOfQ = [
         answer: [
              {a: "mean"},
             {b: "boisterous"},
-            {c: "obedient"},
+            {c: "agree"},
             {d: "gossip"},
             {e: "laugh at them"},
-            {f: "spread the news on social media"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {f: "spread online"},
+            {g: "exaggerate"},
+            {h: "stick-up"},
+            {i: "just listen"},
+            {j: "not care"}
         ]
     },
     {
@@ -202,11 +202,11 @@ export const listOfQ = [
             {c: "endeavor"},
             {d: "graceful"},
             {e: "break things"},
-            {f: "accuse the accuser"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {f: "accuse accuser"},
+            {g: "criticize back"},
+            {h: "zone out"},
+            {i: "feel bad"},
+            {j: "nothing changes"}
         ]
     },
     {
@@ -217,11 +217,11 @@ export const listOfQ = [
             {c: "follower"},
             {d: "taker"},
             {e: "posessive"},
-            {f: "you can't live without it"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {f: "need it"},
+            {g: "others replenish"},
+            {h: "accepting"},
+            {i: "grateful"},
+            {j: "bad"}
         ]
     },
     {
@@ -233,10 +233,10 @@ export const listOfQ = [
             {d: "the best"},
             {e: "strong"},
             {f: "cranky"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "type A"},
+            {h: "peaceful"},
+            {i: "restless"},
+            {j: "tired"}
         ]
     },
     {
@@ -248,25 +248,25 @@ export const listOfQ = [
             {d: "lean"},
             {e: "motorcycle guy"},
             {f: "can't even lift"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "lanky"},
+            {h: "flabby"},
+            {i: "muscular/toned"},
+            {j: "fat"}
         ]
     },
     {
-        question: "Behavior",
+        question: "charachteristics",
         answer: [
              {a: "loud"},
             {b: "humurous"},
-            {c: "appropriate"},
+            {c: "culturally aware"},
             {d: "moody"},
             {e: "dominant"},
             {f: "constantly annoyed"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {g: "on edge and antisocial"},
+            {h: "appropriate"},
+            {i: "social"},
+            {j: "reclusive"}
         ]
     },
     {
@@ -275,28 +275,28 @@ export const listOfQ = [
              {a: "bossy"},
             {b: "domineering"},
             {c: "careful"},
-            {d: "already expect it"},
-            {e: "you don't ask, you just take it"},
-            {f: "give reasons why it would only be fair if you had that"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {d: "entitled"},
+            {e: "take it"},
+            {f: "give reasons"},
+            {g: "get more"},
+            {h: "feel unworthy"},
+            {i: "pout"},
+            {j: "online only"}
         ]
     },
     {
         question: "Being served a gross meal",
         answer: [
-             {a: "push the food around with your fork"},
+             {a: "push food"},
             {b: "needy"},
             {c: "accepting"},
             {d: "finicky"},
-            {e: "throw the plate into a wall"},
-            {f: "complain and talk about how much better another restaurant is"},
-            {g: "animal"},
-            {h: "animal"},
-            {i: "animal"},
-            {j: "animal"}
+            {e: "throw plate"},
+            {f: "complain"},
+            {g: "choke and gag"},
+            {h: "eat to be polite"},
+            {i: "not so bad"},
+            {j: "eat it anyway"}
         ]
     }
 ]

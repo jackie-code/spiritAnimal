@@ -40,19 +40,19 @@ export const animals = {
         description: 'Intelligent and resourceful. Your gentle nature attracts success.',
 
     },
-    i: {
+    h: {
         name:"Seal-horse",
         picture: './images/seal_horse.jpg',
         description: "Only looking into the future as far as your next meal and living for the moment, you don't give a flip what anyone thinks.",
 
     },
-    j: {
+    i: {
         name:"Shark-dog",
         picture: './images/shark_dog.jpg',
         description: 'Loyal and in need of constant adventure.',
 
     },
-    k: {
+    j: {
         name:"Rhino-shark",
         picture: './images/shark_rhino.jpg',
         description: 'Constantly hungry, does the bare minimum of what is required. You gave up and expect free handouts.',
